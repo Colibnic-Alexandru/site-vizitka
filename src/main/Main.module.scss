@@ -1,0 +1,18 @@
+@import './../common/styles/sass/mixins.scss';
+@import "./../common/styles/sass/variables.scss";
+
+.mainBlock {
+  height: 100vh;
+  background-color: aqua;
+  text-align: center;
+  font-size: 30px;
+
+  .text {
+    @include text($fontFamily, 16px, 1.2);
+    width: 300px;
+  }
+}
+
+.test {
+  color: blue;
+}

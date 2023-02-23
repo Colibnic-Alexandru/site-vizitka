@@ -1,0 +1,31 @@
+.slideStyles {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+}
+.rightArrowStyles {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: -20px;
+  font-size: 45px;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+.leftArrowStyles {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: -20px;
+  font-size: 45px;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+.sliderStyles {
+  position: relative;
+  height: 100%;
+}
